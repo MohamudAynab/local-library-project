@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Test coverage
+coverage/
+
+# Production build
+build/
+
+# Misc system files
+.DS_Store
+Thumbs.db
+
+# VS Code & IDEs
+.vscode/
+.idea/
+.eslintcache
+
+# Environment variables
+.env
+.env.*
+!.env.sample
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel/Netlify (if using)
+.vercel
+.screenshots/
+
+# Qualified attach files
+.qualified-attach/
+
+# Windows-specific files
+desktop.ini
+
+# Ignore system-generated metadata files
+$RECYCLE.BIN/
+System Volume Information/
